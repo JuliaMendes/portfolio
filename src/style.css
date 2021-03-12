@@ -53,10 +53,15 @@ h2 {
   font-size: 50px;
 }
 
+h3 {
+  padding: 15px;
+}
+
 p {
   margin: 0;
   font-size: 30px;
   font-weight: 300;
+  padding: 10px;
 }
 
 .subtext {
@@ -81,20 +86,21 @@ p {
   height: 55px;
   background-color: #009ecf;
   border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   font-size: 30px;
   font-weight: 300;
-  padding-top: 5px;
   margin-top: 20px;
 }
 
 .button:hover {
-  background-color: #40b4d7;
+  background-color: #7311f6;
 }
 
-.button:active {
-  background-color: #5cc0ff;
-  color: #808080;
+.button > a:hover {
+  color: white;
 }
 
 .socials {
@@ -143,6 +149,7 @@ p {
 .project-container {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -176,6 +183,21 @@ hr {
 a {
   text-decoration: none;
   color: white;
+}
+
+.see-more {
+  padding: 40px;
+  font-size: 20px;
+  color: #40b4d7;
+  font-weight: bold;
+}
+
+.see-more > a {
+  color: #009ecf;
+}
+
+a:hover {
+  color: #40b4d7;
 }
 
 .hamburger {
