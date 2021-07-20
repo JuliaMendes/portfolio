@@ -46,7 +46,6 @@ li {
 
 h1 {
   font-size: 90px;
-  margin: 0;
 }
 
 h2 {
@@ -58,7 +57,6 @@ h3 {
 }
 
 p {
-  margin: 0;
   font-size: 30px;
   font-weight: 300;
   padding: 10px;
@@ -129,12 +127,12 @@ p {
   padding: 80px;
 }
 
-.headshot {
+.head {
   width: 300px;
   border-radius: 175px;
 }
 
-.headshot-container {
+.head-container {
   display: flex;
   align-items: center;
 }
@@ -214,7 +212,7 @@ a:hover {
     border: 0;
     background-color: transparent;
     color: white;
-    font-size: 30px;
+    font-size: 60px;
     margin: 20px;
     align-self: flex-end;
   }
