@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head> 
     <link rel="stylesheet" href="src/style.css">
     <link rel="shortcut icon" href="/src/images/favicon.ico" />
@@ -7,17 +7,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Júlia Mendes</title>
     <meta charset="UTF-8">
+    <meta name="description" content="Portfólio de Júlia Mendes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <section class="hero">
         <nav>
-            <img class="logo" src="src/images/logo.png" alt="Julia Mendes's logo">
+            <img class="logo" src="src/images/logo.png" alt="Julia Mendes logo">
             <ul id="nav-list">
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact</a></li>
+                <li><a href="#about-me">Sobre mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact-me">Contato</a></li>
             </ul>
-            <button class="hamburger" id="hamburger">
+            <button class="hamburger" id="hamburger" aria-label="Botão hambúrguer">
                 <i class="fas fa-bars"></i>
             </button>
         </nav>
@@ -25,13 +27,13 @@
             <div class="hero-text">
                 <h1>Júlia Mendes</h1>
                 <p>Front-end Developer</p>
-                <div class="button"><a href="#about-me">About me</a></div>
+                <button class="button"><a href="#about-me">Sobre mim</a></button>
             </div>
             <div class="socials">
-                <div><a href="https://www.linkedin.com/in/juliapms" class="social" target="__blank">
+                <div><a href="https://www.linkedin.com/in/juliapms" class="social" aria-label="link para o linkedin" target="__blank">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
                 </a></div>
-                <div><a href="https://github.com/JuliaMendes" class="social" target="__blank">
+                <div><a href="https://github.com/JuliaMendes" class="social" aria-label="link para o github" target="__blank">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
                 </a></div>
             </div>
@@ -39,91 +41,92 @@
     </section>
     <section class="sub-section" id="about-me">
         <div class="information">
-            <h2>About me</h2>
-            <p> Welcome to my portfolio. My name is Júlia Mendes, I'm 25 years old. I live in Rio de Janeiro, Brazil.
-                I study Analysis and Systems Development. I am currently focused on Front-end technologies, such as HTML, CSS and JS.
-                I hope you like my projects!</p>
+            <h2>Sobre mim</h2>
+            <p> Seja bem vindo ao meu portfólio!<br> Meu nome é Júlia Mendes, tenho 25 anos e moro no Rio de Janeiro.
+                Apaixonada por Front-end, curso Análise e Desenvolvimento de Sistemas no Senac e sou estagiária de Engenharia de Software na OLX Brasil.<br>
+                Atualmente estudo HTML, CSS, JS e React.<br>
+                Espero que goste dos meus projetos!</p>
         </div>
         <div class="head-container">
-            <img class="head" src="src/images/headshot-removebg-preview.png" alt="Julia Mendes">
+            <img class="head" src="src/images/headshot-removebg-preview.png" alt="Julia Mendes foto de perfil">
         </div>
     </section>
     <section class="sub-section-alternative" id="projects">
-        <h2>Projects</h2>
+        <h2>Projetos</h2>
         <div class="project-container">
             <div class="project-card">
-                <img class="project-image" src="src/images/stickynavbar.png" alt=" Project Stick Navbar">
+                <img class="project-image" src="src/images/stickynavbar.png" alt=" Projeto Stick Navbar">
                 <h3>Stick Navbar</h3>
                 <p class="subtext">
-                    Sticky navbar, is a fixed menu on a web page that is visible and in the same position where the user scrolls down and moves around the site</p>
+                Sticky navbar, é um menu fixo que fica visível e na mesma posição em que o usuário rola para baixo e se move pelo site</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/sticky-navbar/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://projectstickynavbar.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/pokedex.png" alt="Project Pokedex">
+                <img class="project-image" src="src/images/pokedex.png" alt="Projeto Pokedex">
                 <h3>Pokédex</h3>
-                <p class="subtext">Consuming the Pokédex API, returning the Pokémon's name, number and type</p>
+                <p class="subtext">Consumindo a API Pokédex, retorna o nome, número e o tipo do Pokémon</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/pokedex/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/pokedex/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/mobiletabnavigation.png" alt="Project Mobile tab navigation">
+                <img class="project-image" src="src/images/mobiletabnavigation.png" alt="Projeto Mobile tab navigation">
                 <h3>Mobile Tab Navigation</h3>
-                <p class="subtext">Simple design of a mobile guide navigation</p>
+                <p class="subtext">Design simples de um guia de navegação app</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/mobile-tab-navigation/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/mobile-tab-navigation/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/covid.png" alt="Project Covid-19 tracker">
+                <img class="project-image" src="src/images/covid.png" alt="Projeto Covid-19 tracker">
                 <h3>Covid-19 Tracker
                 </h3>
-                <p class="subtext">By consuming the Covid19 API, you will be able to search for a country, which will return the number of confirmed, recovered and deaths</p>
+                <p class="subtext">Consuma a API Covid19, escolha o país e descubra o número de casos confirmados, recuperados e de óbitos</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://covid19tracker-live.netlify.app/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://covid19tracker-live.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/doubleverticalslider.png" alt="Project Double vertical slider">
+                <img class="project-image" src="src/images/doubleverticalslider.png" alt="Projeto Double vertical slider">
                 <h3>Double Vertical Slider</h3>
-                <p class="subtext">Pass images with innovative and different design</p>
+                <p class="subtext">Passe imagens com um design inovador e diferenciado</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/double-vertical-slider/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://juliamendes.github.io/50-Projects-In-50-Days-/double-vertical-slider/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/calculator.png" alt="Project calculator">
-                <h3> Simple Calculator</h3>
-                <p class="subtext">Do simple calculations like addition, subtraction, multiplication, percentage etc.</p>
+                <img class="project-image" src="src/images/calculator.png" alt="Projeto calculadora">
+                <h3>Simple Calculator</h3>
+                <p class="subtext">Faça cálculos simples como adição, subtração, multiplicação, porcentagem etc.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://calculator-julia.netlify.app/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://calculator-julia.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/horrorflix.png" alt="Project Horrorflix">
+                <img class="project-image" src="src/images/horrorflix.png" alt="Projeto Horrorflix">
                 <h3>Horrorflix
                 </h3>
-                <p class="subtext">Rebuilding the Netflix Interface</p>
+                <p class="subtext">Reconstruindo a interface da Netflix</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://horrorflix.netlify.app/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://horrorflix.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/contador.png" alt="Project word counter">
+                <img class="project-image" src="src/images/contador.png" alt="Projeto contador de palavras">
                 <h3>Word Counter</h3>
-                <p class="subtext">This is an online calculator that counts the number of words in a text</p>
+                <p class="subtext">Esta é uma calculadora online que conta o número de palavras em um texto</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://contadordepalavras.netlify.app/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://contadordepalavras.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
             <div class="project-card">
-                <img class="project-image" src="src/images/sorteador.png" alt="Project number generator">
+                <img class="project-image" src="src/images/sorteador.png" alt="Project gerador de números aleatórios">
                 <h3>Number Generator</h3>
-                <p class="subtext">Generate random numbers within a min and max range that you define</p>
+                <p class="subtext">Gere números aleatórios dentro de um intervalo mínimo e máximo que você define</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://sorteador-numeros-aleatorios.netlify.app/" target="__blank">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://sorteador-numeros-aleatorios.netlify.app/" target="__blank">Veja aqui</a></p>
             </div>
         </div>
-        <div class="see-more"><a href="https://github.com/JuliaMendes" target="__blank">See more</a></div>
+        <div class="see-more"><a href="https://github.com/JuliaMendes" target="__blank">Ver mais</a></div>
     </section>
     <footer id="contact-me">
-        <h2>Contact me</h2>
+        <h2>Contato</h2>
         <p>juliamendesdev@gmail.com</p>
-        <img class="logo" src="src/images/logo.png" alt="Julia Mendes's logo">
+        <img class="logo" src="src/images/logo.png" alt="Julia Mendes logo">
     </footer>
  
     <script src="src/script.js"></script>

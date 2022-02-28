@@ -84,6 +84,7 @@ p {
   height: 55px;
   background-color: #009ecf;
   border-radius: 30px;
+  border: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -169,8 +170,8 @@ hr {
 }
 
 .project-link {
-  text-decoration: none;
-  color: #009ecf;
+  text-decoration: underline;
+  color: #02010a;
   font-weight: bold;
 }
 
